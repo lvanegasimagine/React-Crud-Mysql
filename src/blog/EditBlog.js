@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios';
 import {Link, useNavigate, useParams} from 'react-router-dom';
 
-const URI = 'http://localhost:8000/blogs/';
+const URI = 'https://react-mysql-nicaragua.herokuapp.com/blogs/';
 
 function EditBlog() {
     const [title, setTitle] = useState('');
